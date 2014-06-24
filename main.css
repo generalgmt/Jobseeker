@@ -1,0 +1,168 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+#header{
+	background:url(img/bootcamp1.jpg);
+	height:400px;
+	position:relative;
+	}
+#header h2{
+	font-weight: bold;
+}
+#page2 img, #page4 img{
+	width: 80px;
+	height: 80px;
+	/*padding-left: 30px;*/
+}
+#over_lay{
+	background-color: #000;
+	position:absolute;
+	top:300px;
+	width:100%;
+	height: 100px;
+	opacity: 0.55;
+	color: #fff;
+
+}
+#page2 ul li p{
+	width:120px;}
+#over_lay{
+	text-align:center;
+}
+#overlay2{
+	background-color: #000;
+	position:absolute;
+	top:652px;
+	width:100%;
+	height: 220px;
+	opacity: 0.55;
+	color: #fff;
+}
+a{
+	text-decoration:none;
+}
+#head li{
+	display: inline-block;
+	width:auto;
+	padding-left: 20px;
+}
+#head a{
+	
+}
+ul{
+	list-style-type: none;
+	/*text-align: center;*/
+}
+#page2{
+	text-align: center;
+}
+#page3 a, #page3{
+	text-align: center;
+}
+#page3{
+	margin-top: 30px;
+}
+#head ul{
+	float:right;
+}
+#pos{
+	width:300px;
+	padding:20px;
+	margin-left: 40px;
+	top: 100px;
+}
+br{
+	clear:both;
+}
+/*going to bed
+input[type="submit"]{
+	background-color: green;
+	width: 60px;
+	height: 40px;
+}*/
+.post{
+	display: block;
+	background-color: green;
+	width: 150px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+#page2 h3, #page3 h3, #page4{
+	text-align: center;
+	font-weight: bold;
+}
+#page4 h3{
+	color: #999;
+}
+#page2 li, #page3 li, #page4 li{
+	display: inline-block;
+	/*padding-right: 20px;*/
+}
+#page3 li, #page4 li{
+	padding-right: 80px;
+}
+#page3 a{
+	text-align: center;
+	display: block;
+	background-color: green;
+	width: 150px;
+	margin: 0 auto;
+	height: 30px;
+	color: #fff;
+	padding-top: 12px;
+}
+#page3{
+	background-image: url('img/bootcamp2.png');
+	padding-top: 20px;
+	box-sizing:box;
+}
+
+#page3, #page4{
+	height: 200px;
+}
+#page2{
+	height: 250px;
+	width: 100%;
+}
+#foot li{
+	display: inline-block;
+	padding-left: 20px;
+	height: 50px;
+	width: auto;
+	padding-top: 20px;
+}
+#foot{
+	background-color: black;
+	height: 90px;
+	width: 100%;
+	bottom: -30px;
+	border:1px solid green;
+}
+#inside{
+	width: 100%;
+/*	height: 600px;*/
+	padding:0;
+	margin: 0 auto;
+}
+#foot a{
+	color: #fff;
+}
+/*.new_img:after{
+	content: url('img/9.jpg');
+	width: 30px;
+	height: 40px;
+}*/
+span img{
+	/*background-image: url('img/9.jpg');*/
+	width: 20px;
+	height:10px;
+	position: relative;
+	top: -47px;
+}
