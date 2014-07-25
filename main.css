@@ -1,5 +1,7 @@
+body, html{
+	height: 100%;
+}
 body{
-	width: 1000px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -8,15 +10,13 @@ body{
 #header{
 	background:url(img/bootcamp1.jpg);
 	height:400px;
-	position:relative;
-	}
+		}
 #header h2{
 	font-weight: bold;
 }
 #page2 img, #page4 img{
 	width: 80px;
 	height: 80px;
-	/*padding-left: 30px;*/
 }
 #over_lay{
 	background-color: #000;
@@ -119,19 +119,23 @@ input[type="submit"]{
 	padding-top: 12px;
 }
 #page3{
-	background-image: url('img/bootcamp2.png');
+	background-image: url('img/bootcamp2.jpg');
 	padding-top: 20px;
+	opacity: 0.7;
 	box-sizing:box;
 }
 
-#page3, #page4{
-	height: 200px;
+#page3{
+	height: 30%;
+}
+#page4{
+	height:30%;
 }
 #page2{
-	height: 250px;
+	height: 35%;
 	width: 100%;
 }
-#foot li{
+#foot nav ul li{
 	display: inline-block;
 	padding-left: 20px;
 	height: 50px;
@@ -142,14 +146,16 @@ input[type="submit"]{
 	background-color: black;
 	height: 90px;
 	width: 100%;
-	bottom: -30px;
+	/*bottom: -30px;*/
 	border:1px solid green;
+	position: absolute;
 }
 #inside{
 	width: 100%;
 /*	height: 600px;*/
 	padding:0;
 	margin: 0 auto;
+	position: relative;
 }
 #foot a{
 	color: #fff;
